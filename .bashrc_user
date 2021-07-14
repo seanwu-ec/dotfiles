@@ -1,0 +1,9 @@
+
+# Include best_cmd_prompt
+if [ -f ~/ps1/best_cmd_prompt.sh ]; then
+	. ~/ps1/best_cmd_prompt.sh
+fi
+
+# CTRL+b to del word backward (separated by slash)
+bind '\C-b:unix-filename-rubout'
+
